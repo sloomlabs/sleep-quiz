@@ -687,7 +687,7 @@ export default function SleepQuiz() {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        margin: '0 auto 16px auto',
+        margin: '0 auto 16px',
         padding: '0 20px',
       }}>
         <img 
