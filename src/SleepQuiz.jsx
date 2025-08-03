@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { supabase } from '/Users/anushabhushan/Documents/Sloom/WebTechwork/sleep-quiz/src//supabaseClient';
+import { supabase } from './supabaseClient';
 
 // Quiz sections for visual organization
 const sections = [
@@ -689,7 +689,6 @@ export default function SleepQuiz() {
         alignItems: 'center',
         marginBottom: isMobile ? '16px' : '30px',
         padding: '0 20px',
-        margin: '0 auto',
         marginBottom: isMobile ? '16px' : '30px'
       }}>
         <img 
