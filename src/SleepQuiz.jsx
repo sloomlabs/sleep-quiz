@@ -277,14 +277,12 @@ export default function SleepQuiz() {
             gap: '8px',
             marginBottom: isMobile ? '20px' : '30px'
           }}>
-            <img 
-              src="/sloom-logo.png" 
-              alt="Sloom Logo" 
+            <img src="/sloom-logo.png" alt="Sloom Logo" />
               style={{
                 height: isMobile ? '32px' : '48px',
                 filter: 'brightness(0) invert(1)'
               }}
-            />
+            
             <p style={{
               margin: 0,
               fontSize: isMobile ? '13px' : '16px',
