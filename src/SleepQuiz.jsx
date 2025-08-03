@@ -687,9 +687,8 @@ export default function SleepQuiz() {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        marginBottom: isMobile ? '16px' : '30px',
+        margin: '0 auto 16px auto',
         padding: '0 20px',
-        marginBottom: isMobile ? '16px' : '30px'
       }}>
         <img 
           src="/sloom-logo.png" 
